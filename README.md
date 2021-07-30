@@ -11,8 +11,9 @@ Stream sample video and video/pictures from a system camera (proof of concept)
 
 http://localhost:8080/webcam/stream/{fileType}/{fileName}
 
-  Parameters: {fileType} e.g. "mp4"
-            {fileName}: video file under resources folder
+  * Parameters: 
+    * {fileType} e.g. "mp4"
+    * {fileName}: video file under resources folder
             
  **Take a photo using the webcam**
  
