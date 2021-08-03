@@ -13,7 +13,7 @@ http://localhost:8080/video-stream/file/{fileType}/{fileName}
 
   * Parameters: 
     * {fileType} e.g. "mp4"
-    * {fileName}: video file under resources folder
+    * {fileName}: video file under 'resources/video' folder
             
  **Take a photo using the webcam**
  
