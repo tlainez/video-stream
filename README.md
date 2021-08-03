@@ -9,7 +9,7 @@ Stream sample video and video/pictures from a system camera (proof of concept)
 
 **Stream specific video file**
 
-http://localhost:8080/webcam/stream/{fileType}/{fileName}
+http://localhost:8080/video-stream/file/{fileType}/{fileName}
 
   * Parameters: 
     * {fileType} e.g. "mp4"
@@ -17,11 +17,11 @@ http://localhost:8080/webcam/stream/{fileType}/{fileName}
             
  **Take a photo using the webcam**
  
-http://localhost:8080/webcam/takePhoto
+http://localhost:8080/video-stream/camPhoto
 
  **Stream video from the webcam**
  
-http://localhost:8080/webcam/captureVideo
+http://localhost:8080/video-stream/camVideo
 
 The video size is predefined to 1MB but can be changed by modifyng the constant *CHUNK_VIDEO_SIZE*
 The default camera is the first configured on the system and can be changed by modifying the constant *DEFAULT_CAMERA*
